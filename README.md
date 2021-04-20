@@ -8,8 +8,8 @@ This is a simple solo project carried out on the 20th of April 2021 as part of t
 
 ### Then run:
 
-```npm holidates [country of your choice]```
+```holidates [country of your choice]```
 
 #### You can specify the year you want (default is the current year) like this:
 
-```npm holidates [country of your choice] [year]```
+```holidates [country of your choice] [year]```
