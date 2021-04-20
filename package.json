@@ -1,7 +1,7 @@
 {
   "name": "@charlotte.m/holidates",
-  "description": "",
-  "version": "1.0.0",
+  "description": "This is a npm command to get the holidays of a chosen country. Simply install the package then run 'npm holidates [country of your choice]'. You can also specify the year as a second parameter (default is the current year).",
+  "version": "1.1.0",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/CharlotteMoureau/learning-CLI.git"
   },
-  "keywords": [],
+  "keywords": [
+    "learning",
+    "api",
+    "get",
+    "holidays"
+  ],
   "author": "Charlotte Moureau",
   "license": "ISC",
   "bugs": {
@@ -23,6 +28,6 @@
     "country-list": "^2.2.0"
   },
   "bin": {
-    "holidates": "./index.js"
+    "holidates": "index.js"
   }
 }
